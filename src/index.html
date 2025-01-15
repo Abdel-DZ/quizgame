@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP 5 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header" style="z-index: 1;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container p-2 animated fadeInDownBig">
+                <a class="navbar-brand" href="#">Quiz Virtual Game</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Instructions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="container-fluid justify-content-start">
+                    <a href="interfaz.html"><button class="btn btn-outline-info me-2" type="button"
+                            style="background-color: #161616">Game Inquiry? Reach Out</button></a>
+                    <a href="interfaz.html"><button class="btn btn-outline-warning me-2" type="button"
+                            style="background-color: #161616">Try Now, No Opt-In →</button></a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__div-h1">
+            <h1 class="main__title animated fadeInLeftBig">Elevate Your
+                <br>
+                Virtual Events
+            </h1>
+            <div>
+                <h4 class="main__subtitle animated fadeInRightBig">
+                    <span style="color: aliceblue; font-size: 22px; line-height: 30px;">
+                        Host interactive trivia challenges with themed rooms and flexible access options. Deliver the
+                        most <br>
+                        engaging questions and educational content directly to players, creating a fun and enriching
+                        experience as <br>
+                        they compete to showcase their general knowledge. Let me know if youenriching need further
+                        adjustments! <br>
+                    </span>
+                </h4>
+            </div>
+            <br>
+            <div>
+                <form class="container-fluid justify-content-start">
+                    <a href="interfaz.html"><button class="btn btn-outline-success me-2 animated fadeInRightBig" type="button"
+                        style="background-color: #161616;">Experience It Now, No Signup
+                        Needed</button></a>
+                        <a href="interfaz.html"><button class="btn btn-outline-danger me-2 animated fadeInLeftBig" type="button"
+                        style="background-color: #161616;">Experience the Full Potential</button></a>
+                </form>
+            </div>
+        </div>
+        <br>
+        <section class="section">
+            <div class="card">
+                <div class="card__front animated rotateIn">
+                    <a class="card-a" href="history.html">
+                        <picture class="card__worker">
+                            <source srcset="history-small.png" media="max-width: 600px">
+                            <img src="history.png" alt="History Category" title="Everything is History">
+                        </picture>
+                        <div class="card__data">
+                            <span>History</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__front animated rotateIn">
+                    <a class="card-a" href="#geography">
+                        <picture class="card__worker">
+                            <source srcset="geography.png" media="max-width: 600px">
+                            <img src="geography.png" alt="Geography Category" title="For travelers only">
+                        </picture>
+                        <div class="card__data">
+                            <span>Geography</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__front animated rotateIn">
+                    <a class="card-a" href="#biology">
+                        <picture class="card__worker">
+                            <source srcset="biology-small.png" media="max-width: 600px">
+                            <img src="biology.png" alt="Biology Category" title="We need Biology">
+                        </picture>
+                        <div class="card__data">
+                            <span>Biology</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__front animated rotateIn">
+                    <a class="card-a" href="#math">
+                        <picture class="card__worker">
+                            <source srcset="mathematics-small.png" media="max-width: 600px">
+                            <img src="mathematics.png" alt="Mathematics Category" title="We need Mathematics">
+                        </picture>
+                        <div class="card__data">
+                            <span>Mathematics</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__front animated rotateIn">
+                    <a class="card-a" href="#chemistry">
+                        <picture class="card__worker">
+                            <source srcset="chemistry-small.png" media="max-width: 600px">
+                            <img src="chemistry.png" alt="Chemistry Category" title="We need Chemistry">
+                        </picture>
+                        <div class="card__data">
+                            <span>Chemistry</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="main__video animated rotateInUpLeft">
+            <video id="history" width="900" controls style="border-radius: 25px; border: 10px solid #0b76e0">
+                <source src="ambient.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <button class="btn btn-outline-info me-2" type="button" style="background-color: #161616;">
+                <a href="interfaz.html" style="text-decoration: none;">Dive into History Now – No Signup
+                    Required</a></button>
+        </div>
+        <br>
+        <aside class="aside">
+                <div class="kort">
+                    <div class="kort__front">
+                        <picture class="kort__worker">
+                            <source srcset="profil-small.jpg" media="(max-width: 600px)">
+                            <img src="profil.jpg" alt="profil">
+                        </picture>
+                        <div class="kort__data">
+                            <span>JULIO A. VARAS GONZALÉZ</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, adipisci ut! Id nesciunt, ut
+                                ex
+                                quaerat nostrum ab, explicabo placeat dolorem quas sunt dolorum facere sapiente laborum optio
+                                magni
+                                quisquam!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kort__back">
+                        <h2 class="title">
+                            Experience Platform
+                        </h2>
+                        <p class="subtitle">
+                            Create an interactive and educational experience with a captivating quiz game for children. Enhance
+                            knowledge retention and engagement through a playful, centralised platform that combines fun with
+                            learning. This real-time solution helps kids explore topics like science, history, and language in a
+                            dynamic and on-brand way, fostering curiosity and collaboration. Discover how KidSmart Academy used
+                            it
+                            to bring classrooms alive, or how QuizPlay Kids helped schools improve student participation in
+                            interactive learning sessions.
+                        </p>
+                    </div>
+                </div>
+                <div class="kort">
+                    <div class="kort__front">
+                        <picture class="kort__worker">
+                            <source srcset="profil-small.jpg" media="(max-width: 600px)">
+                            <img src="profil.jpg" alt="profil">
+                        </picture>
+                        <div class="kort__data">
+                            <span>JULIO A. VARAS GONZALÉZ</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, adipisci ut! Id nesciunt, ut
+                                ex
+                                quaerat nostrum ab, explicabo placeat dolorem quas sunt dolorum facere sapiente laborum optio
+                                magni
+                                quisquam!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kort__back">
+                        <h2 class="title">
+                            Experience Platform
+                        </h2>
+                        <p class="subtitle">
+                            Create an interactive and educational experience with a captivating quiz game for children. Enhance
+                            knowledge retention and engagement through a playful, centralised platform that combines fun with
+                            learning. This real-time solution helps kids explore topics like science, history, and language in a
+                            dynamic and on-brand way, fostering curiosity and collaboration. Discover how KidSmart Academy used
+                            it
+                            to bring classrooms alive, or how QuizPlay Kids helped schools improve student participation in
+                            interactive learning sessions.
+                        </p>
+                    </div>
+                </div>
+                <div class="kort">
+                    <div class="kort__front">
+                        <picture class="kort__worker">
+                            <source srcset="profil-small.jpg" media="(max-width: 600px)">
+                            <img src="profil.jpg" alt="profil">
+                        </picture>
+                        <div class="kort__data">
+                            <span>JULIO A. VARAS GONZALÉZ</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, adipisci ut! Id nesciunt, ut
+                                ex
+                                quaerat nostrum ab, explicabo placeat dolorem quas sunt dolorum facere sapiente laborum optio
+                                magni
+                                quisquam!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kort__back">
+                        <h2 class="title">
+                            Experience Platform
+                        </h2>
+                        <p class="subtitle">
+                            Create an interactive and educational experience with a captivating quiz game for children. Enhance
+                            knowledge retention and engagement through a playful, centralised platform that combines fun with
+                            learning. This real-time solution helps kids explore topics like science, history, and language in a
+                            dynamic and on-brand way, fostering curiosity and collaboration. Discover how KidSmart Academy used
+                            it
+                            to bring classrooms alive, or how QuizPlay Kids helped schools improve student participation in
+                            interactive learning sessions.
+                        </p>
+                    </div>
+                </div>
+                <div class="kort">
+                    <div class="kort__front">
+                        <picture class="kort__worker">
+                            <source srcset="profil-small.jpg" media="(max-width: 600px)">
+                            <img src="profil.jpg" alt="profil">
+                        </picture>
+                        <div class="kort__data">
+                            <span>JULIO A. VARAS GONZALÉZ</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, adipisci ut! Id nesciunt, ut
+                                ex
+                                quaerat nostrum ab, explicabo placeat dolorem quas sunt dolorum facere sapiente laborum optio
+                                magni
+                                quisquam!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kort__back">
+                        <h2 class="title">
+                            Experience Platform
+                        </h2>
+                        <p class="subtitle">
+                            Create an interactive and educational experience with a captivating quiz game for children. Enhance
+                            knowledge retention and engagement through a playful, centralised platform that combines fun with
+                            learning. This real-time solution helps kids explore topics like science, history, and language in a
+                            dynamic and on-brand way, fostering curiosity and collaboration. Discover how KidSmart Academy used
+                            it
+                            to bring classrooms alive, or how QuizPlay Kids helped schools improve student participation in
+                            interactive learning sessions.
+                        </p>
+                    </div>
+                </div>
+        </aside>
+    </main>
+    <br>
+    <footer class="footer p-3" style="background-color: #161616; color: aliceblue; text-align: center;">
+        <p><strong>&copy;2025 The Group 1 Company | All rights reserved</strong></p>
+    </footer>
+</body>
+
+</html>
